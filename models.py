@@ -5,7 +5,7 @@ import json
 #database_path = os.environ['DATABASE_URL']
 #database_name = "trivia"
 # database_path = "postgres://{}/{}".format('localhost:5432', database_name)
-database_path = "postgresql://postgres:rammel@localhost:5432/capstone"
+database_path = "postgres://xziznhghlbhwox:250ea74c53494d88192282efc13e6676da8b73faba05544ccb97206ba2f55381@ec2-54-156-149-189.compute-1.amazonaws.com:5432/d1mqqn6tjiljlh"
 
 db = SQLAlchemy()
 
